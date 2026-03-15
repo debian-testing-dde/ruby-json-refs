@@ -1,0 +1,5 @@
+ruby-json-refs (0.1.9-1obs1) unstable; urgency=medium
+
+  * Bootstrap package for OBS on Debian testing.
+
+ -- hao <hao@local>  Sun, 15 Mar 2026 03:45:00 +0800

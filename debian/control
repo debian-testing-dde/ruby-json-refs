@@ -1,0 +1,19 @@
+Source: ruby-json-refs
+Section: ruby
+Priority: optional
+Maintainer: hao <hao@local>
+Build-Depends: debhelper-compat (= 13),
+ gem2deb
+Standards-Version: 4.7.0
+Homepage: https://github.com/tzmfreedom/json_refs
+Rules-Requires-Root: no
+
+Package: ruby-json-refs
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby:any,
+ ruby-hana,
+ ${misc:Depends},
+ ${ruby:Depends}
+Description: JSON pointer dereferencing library for Ruby
+ Dereference JSON Pointer and JSON references in Ruby programs.
